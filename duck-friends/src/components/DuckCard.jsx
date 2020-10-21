@@ -1,9 +1,11 @@
 import React from 'react'
 
-const DuckCard = () => {
+const DuckCard = (props) => {
+    const {duck} = props
+    console.log(duck)
     return (
         <div>
-            duck card
+            <h2>{duck.species}</h2>
         </div>
     )
 }

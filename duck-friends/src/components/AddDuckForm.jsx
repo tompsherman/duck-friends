@@ -8,7 +8,7 @@ const DucksForm = (props) => {
         region: '',
         cookTime: ''
     })
-
+    console.log("hello:", props)
     const submitHandler = event => {
         event.preventDefault();
         props.postDucks(duck)

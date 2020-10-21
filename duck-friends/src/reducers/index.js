@@ -1,7 +1,7 @@
 import { FETCH_DUCKS_START, FETCH_DUCKS_SUCCESS, FETCH_DUCKS_FAILURE, POST_DUCKS_START, POST_DUCKS_SUCCESS, POST_DUCKS_FAILURE } from '../actions'
 
 const initialState = {
-    ducks: '',
+    ducks: [],
     isLoading: false,
     error: ''
 }
